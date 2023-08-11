@@ -1,25 +1,25 @@
 Librarys and dispositives codes:
 
-ADS1115:
+ADS1115: /// Conversor de sinais analógicos para digitais
   Library: https://github.com/adafruit/Adafruit_ADS1X15
-  Code:
+  Code: https://raspberrypi.stackexchange.com/questions/104538/how-can-rpi3-4-interface-multiple-ads1015-ads1115-adcs /// Como conectar mais de um ADS no mesmo canal I2C
 
-SHT20:
+SHT20: /// Sensor de temperatura e humidade
   Library: https://github.com/PinguinoIDE/pinguino-libraries/blob/master/p8/include/pinguino/libraries/SHT20.c
   Code:
 
-ENS160:
+ENS160: /// Sensor de CO2
   Library: https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library
   Code:
 
-OPT3002:
+OPT3002: /// Sensor de luminosidade
   Library: https://github.com/closedcube/ClosedCube_OPT3002_Arduino
   Code:
 
-USB Camera:
+USB Camera: /// Câmera externa USB
   Library:
   Code:
 
-A7670SA:
+A7670SA: /// Módulo 4G USB
   Library: https://github.com/Xinyuan-LilyGO/T-A7670X
   Code:
