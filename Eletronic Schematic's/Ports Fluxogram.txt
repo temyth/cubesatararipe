@@ -15,7 +15,8 @@ GPIO PORTS: 02 and 03 (SDA and SCL)
      Pin 6: 1.8V ENS160 Stepdown Volt. Monitoring
      Pin 7: N/A
    SHT20 PCB Sensor / Adress: ‘1000’000’
-GPIO PORTS:
+GPIO PORTS: 14 and 15 (TXD and RXD):
+   WT 931 Gyroscope
 GPIO PORT: 13
    Camera Servo PWM Signal
      Max. Angle: 30° for each direction (60° total)
