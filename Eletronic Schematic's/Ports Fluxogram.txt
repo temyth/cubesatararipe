@@ -1,15 +1,18 @@
 GPIO PORTS: 02 and 03 (SDA and SCL) /// Protocolo I2C
    ADS 1115 Rasp. PCB / Address 1001000 / ALRT Port: GPIO 4 /// Conversor de sinais analógicos para digitais, localizado na PCB anexada ao Raspberry
+   #Faixa de voltagem sugerida: +/-6.144V
      Pin 4: 4.2V Servo Voltage Monitoring /// Monitoramento da tensão de saída do stepdown que alimenta o servo-motor
      Pin 5: 5.0V Stepdown Voltage Monitoring /// Monitoramento da tensão de saída do stepdown geral que alimenta o sistema
      Pin 6: Bat. Volt. Divider Monitoring (5.5v Max.) /// Monitoramento da tensão da bateria a partir de um divisor de voltagem (5.5v com bateria em carga; 5.0v                                                             com bateria com carga completa; 4.3v bateria descarregada)
      Pin 7: ACS712 (Check Datasheet for more info.) /// Entrada da tensão do sensor de corrente, necessário checar o datasheet para mais info. da voltagem
    ADS 1115 Solar Panel PCB / Address 1001010 / ALRT Port: GPIO 17 /// Conversor de sinais analógicos para digitais, localizado na PCB de um painel solar
+   #Faixa de voltagem sugerida: +/-2.048V
      Pin 4: Solar Panel Volt. Monitoring (1.0V Max.) /// Monitoramento da tensão de saída dos painéis solares, tensão máxima de 1V
      Pin 5: Solar Panel Volt. Monitoring (1.0V Max.) /// Monitoramento da tensão de saída dos painéis solares, tensão máxima de 1V
      Pin 6: Solar Panel Volt. Monitoring (1.0V Max.) /// Monitoramento da tensão de saída dos painéis solares, tensão máxima de 1V
      Pin 7: Solar Panel Volt. Monitoring (1.0V Max.) /// Monitoramento da tensão de saída dos painéis solares, tensão máxima de 1V
    ADS 1115 External Sensors PCB / Address 1001001 / ALRT Port: GPIO 26 /// Conversor de sinais analógicos para digitais, localizado na PCB de sensores externos
+   #Faixa de voltagem sugerida: +/-4.096V
      Pin 4: 3.3V Geral Volt. Monitoring /// Monitoramento da tensão de alimentação geral de 3.3V
      Pin 5: XGZP6847A Pressure Sensor Volt. Monitoring (Check Datasheet) /// Monitoramento da tensão de saída do sensor de pressão, checar datasheet
      Pin 6: 1.8V ENS160 Stepdown Volt. Monitoring /// Monitoramento da tensão de saída do Stepdown de alimentação do sensor de CO2, voltagem constante de 1.82V
