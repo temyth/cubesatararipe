@@ -1,0 +1,27 @@
+GPIO PORTS: 02 and 03 (SDA and SCL)
+   ADS 1115 Rasp. PCB / Address 1001000 / ALRT Port: GPIO 4
+     Pin 4: 4.2V Servo Voltage Monitoring
+     Pin 5: 5.0V Stepdown Voltage Monitoring
+     Pin 6: Bat. Volt. Divider Monitoring (5.0v Max.)
+     Pin 7: ACS712 (Check Datasheet for more info.)
+   ADS 1115 Solar Panel PCB / Address 1001010 / ALRT Port: GPIO 17
+     Pin 4: Solar Panel Volt. Monitoring (1.0V Max.)
+     Pin 5: Solar Panel Volt. Monitoring (1.0V Max.)
+     Pin 6: Solar Panel Volt. Monitoring (1.0V Max.)
+     Pin 7: Solar Panel Volt. Monitoring (1.0V Max.)
+   ADS 1115 External Sensors PCB / Address 1001001 / ALRT Port: GPIO 26
+     Pin 4: 3.3V Geral Volt. Monitoring
+     Pin 5: XGZP6847A Pressure Sensor Volt. Monitoring (Check Datasheet)
+     Pin 6: 1.8V ENS160 Stepdown Volt. Monitoring
+     Pin 7: N/A
+   SHT20 PCB Sensor / Adress: ‘1000’000’
+GPIO PORTS:
+GPIO PORT: 13
+   Camera Servo PWM Signal
+     Max. Angle: 30° for each direction (60° total)
+USB 1 Raspberry:
+   A7670SA Simcom 4G Module
+USB 2 Raspberry: 
+   Camera Sony IMX 298 AutoFocus
+
+     
