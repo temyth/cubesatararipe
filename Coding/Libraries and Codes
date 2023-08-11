@@ -18,7 +18,7 @@ OPT3002: /// Sensor de luminosidade
   Code:
 
 USB Camera: /// Câmera externa USB
-  Library:
+  Library: https://github.com/libuvc/libuvc
   Code:
 
 A7670SA: /// Módulo 4G USB
