@@ -3,6 +3,7 @@ Libraries and dispositives codes:
 ADS1115: /// Conversor de sinais analógicos para digitais
   Library: https://github.com/adafruit/Adafruit_ADS1X15
   Code: https://raspberrypi.stackexchange.com/questions/104538/how-can-rpi3-4-interface-multiple-ads1015-ads1115-adcs /// Como conectar mais de um ADS no mesmo canal I2C
+        https://www.engineersgarage.com/raspberry-pi-ads1015-ads1115-analog-sensor-interfacing-ir-sensor-interfacing/ /// Interface de voltagem
 
 SHT20: /// Sensor de temperatura e humidade
   Library: https://github.com/PinguinoIDE/pinguino-libraries/blob/master/p8/include/pinguino/libraries/SHT20.c
