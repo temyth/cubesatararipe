@@ -24,6 +24,8 @@ GPIO PORTS: 5 and 6 (SDA and SCL) /// Protocolo I2C
     INT Port: GPIO 27
    ENS 160 External /// Sensor de gás externo
      INTT Port: GPIO 22
+GPIO PORTS: 16 and 18 (SDA and SCL) /// Protocolo I2C
+   SHT 20 Battery /// Sensor de temperatura da bateria
 GPIO PORTS: 14 and 15 (TXD and RXD) /// Protocolo UART
    WT931 Witmotion Gyroscope /// Giroscópio fixado na PCB anexada ao Raspberry
 GPIO PORT: 13
