@@ -1,19 +1,19 @@
 Librarys and dispositives codes:
 
 ADS1115:
-  Library:
+  Library: https://github.com/adafruit/Adafruit_ADS1X15
   Code:
 
 SHT20:
-  Library:
+  Library: https://github.com/PinguinoIDE/pinguino-libraries/blob/master/p8/include/pinguino/libraries/SHT20.c
   Code:
 
 ENS160:
-  Library:
+  Library: https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library
   Code:
 
 OPT3002:
-  Library:
+  Library: https://github.com/closedcube/ClosedCube_OPT3002_Arduino
   Code:
 
 USB Camera:
@@ -21,5 +21,5 @@ USB Camera:
   Code:
 
 A7670SA:
-  Library
+  Library: https://github.com/Xinyuan-LilyGO/T-A7670X
   Code:
