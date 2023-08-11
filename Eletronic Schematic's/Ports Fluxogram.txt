@@ -18,6 +18,12 @@ GPIO PORTS: 02 and 03 (SDA and SCL) /// Protocolo I2C
      Pin 6: 1.8V ENS160 Stepdown Volt. Monitoring /// Monitoramento da tensão de saída do Stepdown de alimentação do sensor de CO2, voltagem constante de 1.82V
      Pin 7: N/A
    SHT20 PCB Sensor / Adress: ‘1000’000’ /// Sensor de temperatura e humidade, endereço fixo e inalterável, localizado na PCB anexada ao Raspberry
+GPIO PORTS: 5 and 6 (SDA and SCL) /// Protocolo I2C
+   SHT 20 External /// Sensor de temperaturas e humidade externo
+   OPT3002 External /// Sensor de luminosidade externo
+    INT Port: GPIO 27
+   ENS 160 External /// Sensor de gás externo
+     INTT Port: GPIO 22
 GPIO PORTS: 14 and 15 (TXD and RXD) /// Protocolo UART
    WT931 Witmotion Gyroscope /// Giroscópio fixado na PCB anexada ao Raspberry
 GPIO PORT: 13
