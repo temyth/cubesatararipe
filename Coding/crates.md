@@ -1,0 +1,6 @@
+#### [ADS1115](https://docs.rs/ads1x15/0.4.0/ads1x15/index.html) (Analog to Digital Converter)
+#### [SHT20](https://docs.rs/ufire_sht20/0.9.1/ufire_sht20/) (Temperature and Humidity Sensor)
+#### ENS160 !TBD! (CO2 Sensor)
+#### [OPT3002](https://docs.rs/opt300x/latest/opt300x/) (Luminosity Sensor)
+#### [USB Camera](https://docs.rs/uvc/latest/uvc/) (External USB Camera)
+#### A7670SA !TBD! (4G USB Module)
