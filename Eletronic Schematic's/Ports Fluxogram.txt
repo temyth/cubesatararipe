@@ -1,11 +1,11 @@
 GPIO PORTS: 02 and 03 (SDA and SCL) /// I2C Protocol
    ADS 1115 Rasp. PCB / Address 1001000 / ALRT Port: GPIO 4 /// Analog to Digital Converter, fixed on the Raspberry PI manager PCB
    #Voltage range recommended: +/-6.144V
-     Pin 4: 4.2V Servo Voltage Monitoring /// Monitoramento da tensão de saída do stepdown que alimenta o servo-motor
-     Pin 5: 5.0V Stepdown Voltage Monitoring /// Monitoramento da tensão de saída do stepdown geral que alimenta o sistema
-     Pin 6: Bat. Volt. Divider Monitoring (5.5v Max.) /// Monitoramento da tensão da bateria a partir de um divisor de voltagem (5.5v com bateria em carga; 5.0v                                                             com bateria com carga completa; 4.3v bateria descarregada)
-     Pin 7: ACS712 (Check Datasheet for more info.) /// Entrada da tensão do sensor de corrente, necessário checar o datasheet para mais info. da voltagem
-   ADS 1115 Solar Panel PCB / Address 1001010 / ALRT Port: GPIO 17 /// Conversor de sinais analógicos para digitais, localizado na PCB de um painel solar
+     Pin 4: 4.2V Servo Voltage Monitoring /// Voltage monitoring of the step-down of the servo-motor, nominal voltage of 4.2V
+     Pin 5: 5.0V Stepdown Voltage Monitoring /// Voltage monitoring of the general step-down of 5V
+     Pin 6: Bat. Volt. Divider Monitoring (5.5v Max.) /// Voltage monitoring of the battery with an volt. divider /// 5.5v = charging ; 5.0v = full battery; 4.3V = discharged battery
+     Pin 7: ACS712 (Check Datasheet for more info.) /// Output voltage of the current sensor
+   ADS 1115 Solar Panel PCB / Address 1001010 / ALRT Port: GPIO 17 /// Analog to Digital Converter, fixed on an PCB of an Solar Panel
    #Voltage range recommended: +/-2.048V
      Pin 4: Solar Panel Volt. Monitoring (1.0V Max.) /// Voltage monitoring of the solar cells, max. volt. of 1v
      Pin 5: Solar Panel Volt. Monitoring (1.0V Max.) /// Voltage monitoring of the solar cells, max. volt. of 1v
