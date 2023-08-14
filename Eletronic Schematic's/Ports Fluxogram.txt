@@ -24,16 +24,15 @@ GPIO PORTS: 5 and 6 (SDA and SCL) /// I2C Protocol
     INT Port: GPIO 27
    ENS 160 External /// External CO2 Sensor
      INTT Port: GPIO 22
-GPIO PORTS: 16 and 18 (SDA and SCL) /// Protocolo I2C
+GPIO PORTS: 16 and 18 (SDA and SCL) /// I2C Protocol
    SHT 20 Battery /// Temperature Sensor of the Battery
-GPIO PORTS: 14 and 15 (TXD and RXD) /// Protocolo UART
-   WT931 Witmotion Gyroscope /// Giroscópio fixado na PCB anexada ao Raspberry
+GPIO PORTS: 14 and 15 (TXD and RXD) /// UART Protocol
+   WT931 Witmotion Gyroscope /// Gyroscope fixed on the Raspberry PI Manager PCB
 GPIO PORT: 13
-   Camera Servo PWM Signal /// Servo motor que controla a câmera
-     Max. Angle: 30° for each direction (60° total) /// Giro máximo em cada sentido, 30° em cada direção
+   Camera Servo PWM Signal /// Servo that controls the camera angle
+     Max. Angle: 30° for each direction (60° total) /// Max. angle of 30° each direction
 USB 1 Raspberry:
-   A7670SA Simcom 4G Module /// Módulo 4G conectado à porta USB 1 do raspberry
+   A7670SA Simcom 4G Module /// 4G Module
 USB 2 Raspberry: 
-   Camera Sony IMX 298 AutoFocus /// Câmera Sony conectada à porta USB 2 do raspberry
-
+   Camera Sony IMX 298 AutoFocus /// Sony USB Camera
      
